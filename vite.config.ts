@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         content: resolve(__dirname, 'src/content.ts'),
         background: resolve(__dirname, 'src/background.ts'),
+        options: resolve(__dirname, 'src/Options.tsx')
       },
       output: {
         entryFileNames: '[name].js',
